@@ -1,0 +1,69 @@
+ <HTML lang="es">
+  <head>
+    <meta charset= "UTF-8">
+    
+    <title> Actividad DOM JS</title>
+  </head>
+  
+  <body>
+    <!-- cuando haga click en el titulo debe cambiarse-->
+    <h1 id="titulo-main" style="color:blue" >desafio de java </h1>
+    
+    <h3 id= "titulo-cajas" style=color:lightblue> el reto de las cajas</h3>
+    <button id="btn-cajas-titulo"> Cambia el titulo de cajas
+      
+    </button>
+    
+    <hr>    
+    <h3 id= "titulo-cajas" style=color:pink> el reto de las imagenes</h3>
+   
+  
+  <div class="contenedor">
+      <div class="caja"> caja1 </div>
+      <div class="caja"> caja2 </div>
+      <div class="caja"> caja3 </div>
+   </div>
+    </button>
+    
+    <button id="btn-color-cajas">cambiar color cajas
+    </button>
+   
+   <button id="btn-color-caja1"> Cambiar color caja 1
+   </button>
+   
+   
+   <button id="btn-borde"> cambiar borde de las cajas
+   </button>
+   
+   
+   <div class="container py-4">
+   <!-- Input y Botón -->
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <input 
+          type="text" 
+          class="form-control" 
+          id="imageUrlInput" 
+          placeholder="Introduce la URL de la imagen">
+      </div>
+      
+      <div class="col-md-4">
+        <button 
+          class="btn btn-primary w-100" 
+          id="addImageBtn">
+          Agregar Imagen
+        </button>
+      </div>
+    </div>
+
+    <!-- Contenedor de la galería -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="galleryContainer">
+      <!-- Aquí se añadirán las imágenes dinámicamente -->
+    </div>
+  </div>
+   
+ </body>
+<script src="script.js"></script>
+    
+  </html>
+  
